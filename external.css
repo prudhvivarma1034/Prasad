@@ -1,0 +1,114 @@
+
+.main{
+    background-color: whitesmoke;
+   
+}
+@media screen and (max-width: 768px) {
+  .navbar-nav {
+      margin-left: 0; /* Reset the margin for small screens */
+  }
+  .navbar-nav .nav-item {
+      margin-right: 0; /* Reset the margin for small screens */
+  }
+  /* Add more responsive styles as needed */
+}
+
+.navbar-nav {
+    margin-left: 40rem;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 25px;
+}
+
+.dropdown-menu {
+    position: relative;
+    display: inline-block;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 12rem;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.circles{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.circle {
+    border-radius: 50%;
+    background: transparent;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+     
+  }
+  .c1{
+    background-color:yellowgreen;
+  }
+  
+  .c2 {
+    width: 30px;
+    height: 30px;
+    border-color: blue;
+    background-color:white;
+  }
+  .leaf{
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 10px;
+    border : solid orange;
+
+  }
+  .leaves{
+    position: absolute;
+  margin-left: 70rem;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 10px;
+    transform: rotate(-0.25turn);
+    background-color: lightblue;
+}
+.brand {
+    margin-left: 10rem;
+      margin-top: 4rem;
+      font-weight: bold;
+      font-size: 100px;
+      line-height:normal;
+}
+.side {
+    margin-left: 6rem;
+    margin-top: 4rem;
+    font-size: 30px;
+    line-height:normal;
+}
+.circl{
+   margin-left:70rem;
+}
+.sub-main{
+    background-color: white;
+    padding-top: 100px;
+    padding-left: 60px;
+    font-size: 30px;
+}

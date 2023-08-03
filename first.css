@@ -1,0 +1,222 @@
+/* Mobile Devices (up to 767px) */
+@media screen and (max-width: 767px) {
+    /* CSS rules for small screens */
+}
+
+/* Tablets and Small Laptops (768px - 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* CSS rules for medium screens */
+}
+
+/* Medium and Large Laptops (992px - 1199px) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    /* CSS rules for large screens */
+}
+
+/* Large Desktops (1200px and above) */
+@media screen and (min-width: 1200px) {
+    /* CSS rules for extra-large screens */
+}
+
+
+
+
+
+
+/* For screens up to 767px (Mobile Devices) */
+@media screen and (max-width: 767px) {
+    .navbar-nav {
+        margin-left: 0;
+    }
+    .navbar-nav .nav-item {
+         margin-right: 0;
+    }
+    /* Add more responsive styles as needed */
+}
+
+
+.container{
+    background-color: whitesmoke;
+    padding-right: 84rem;
+    
+}
+.navbar-nav {
+    margin-left: 40rem;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+.dropdown-menu {
+    position: relative;
+    /* display: inline-block; */
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: #f1f1f1;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 12rem;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+   
+}
+
+/* ///circles and leaf responsiveness */
+@media screen and (max-width: 767px) {
+    .circles {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .circle {
+        width: 60px;
+        height: 60px;
+    }
+    .leaf {
+        margin-left: 5rem;
+    }
+    .leaves {
+        margin-left: 29rem;
+    }
+    /* Add more responsive styles as needed */
+}
+
+
+.circles{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.circle {
+    border-radius: 50%;
+    background: transparent;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+     
+  }
+  .c1{
+    background-color:yellowgreen;
+  }
+  
+  .c2 {
+    width: 30px;
+    height: 30px;
+    border-color: blue;
+    background-color:white;
+  }
+  .leaf{
+    position: absolute;
+    margin-left: 10rem;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 10px;
+    border : solid orange;
+
+  }
+  .leaves{
+    position: absolute;
+  margin-left: 72.3rem;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 10px;
+    transform: rotate(-0.25turn);
+    background-color: lightblue;
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .brand {
+        margin-left: 2rem;
+        font-size: 60px;
+    }
+    .side {
+        margin-left: 2rem;
+        font-size: 20px;
+    }
+    /* Add more responsive styles as needed */
+}
+
+.brand {
+    width: 100%;
+    height: 100%;
+    margin-left: 6rem;
+      margin-top: 5rem;
+      font-weight: bold;
+      font-size: 100px;
+      line-height:normal;
+}
+.side {
+    margin-left: 6rem;
+    margin-top: 4rem;
+    font-size: 30px;
+    line-height:normal;
+}
+
+
+@media screen and (max-width: 767px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sub-main {
+        padding-top: 50px;
+        margin-left: 2rem;
+        font-size: 20px;
+    }
+    /* Add more responsive styles as needed */
+}
+
+.div1{
+    width: 100%;
+    height: 100%;
+    padding-left: 100px;
+}
+.sub-main{
+    background-color: white;
+    padding-top: 100px;
+    margin-left: 8rem;
+    font-size: 30px;
+}
+.circl{
+    margin-left: 70rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .first {
+        background-color: #f0f0f0;
+    }
+    
+    .second {
+        background-color: #ffffff;
+    }
+}
+.first{
+    margin-left: 11rem;
+}
+.second{
+    margin-left: 7.5rem;
+    font-size: 30px;
+}
